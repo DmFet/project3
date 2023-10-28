@@ -25,6 +25,7 @@
   .header {
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
   }
   .promo {
     &__header {
@@ -138,30 +139,29 @@
       font-size: 14px;
       text-align: center;
     }
-  }
-  &__official {
-    margin-top: 10px;
-    font-size: 11px;
-    span {
+    &__official {
+      margin-top: 10px;
+      font-size: 11px;
+      span {
+        font-size: 15px;
+      }
+    }
+    &__phone {
       font-size: 15px;
     }
-  }
-  &__phone {
-    font-size: 15px;
-  }
-  &__icons {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0px;
-  }
-  &__link {
-    margin: -20px 35px 0 0;
+    &__icons {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0px;
+    }
+    &__link {
+      margin: -20px 35px 0 0;
+    }
   }
 }
 .header {
-  flex-direction: column;
   &__logo {
     width: 70%;
     margin-left: 88px;
